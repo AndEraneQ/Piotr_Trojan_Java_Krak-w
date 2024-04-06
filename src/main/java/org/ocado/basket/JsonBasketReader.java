@@ -28,12 +28,12 @@ public class JsonBasketReader {
         }
         return productsList;
     }
-    public Map<String,Set<String>> readDeliveryWaysForProducts(List<String> productsName, String fileName){
+    public Map<String,Set<String>> readDeliveryWaysForProducts(List<String> productsName, String absolutePathToConfigFile){
         Map<String,Set<String>> productsAndDeliveryWays = new HashMap<>();
         Set<String> setOfProducts = new HashSet<>(productsName);
         String jsonContent = null;
         try {
-            jsonContent = new String(Files.readAllBytes(Paths.get(fileName)));
+            jsonContent = new String(Files.readAllBytes(Paths.get(absolutePathToConfigFile)));
 
         } catch (IOException e) {
             throw new RuntimeException(e);
