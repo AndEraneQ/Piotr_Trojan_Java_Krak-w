@@ -10,7 +10,7 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class JsonBasketReaderTest {
+public class TestJsonBasketReader {
     @Test
     public void testReadListOfProduct() {
         // Arrange

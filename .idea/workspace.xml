@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="288bba8e-0f6c-4676-bb7a-8862de1b0d34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/BasketSplitterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/JsonBasketReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/SplitterActionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/jsonFilesToTest/readDeliveryWaysForProductsTest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/jsonFilesToTest/readListOfProductTest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/jsonFilesToTest/splitTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ocado/basket/jsonFiles/basket-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/basket.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ocado/basket/jsonFiles/basket-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/basket-2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ocado/basket/jsonFiles/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ocado/basket/BasketSplitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/TestBasketSplitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ocado/basket/JsonBasketReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/TestJsonBasketReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ocado/basket/SplitterActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/TestSplitterActions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
     "JUnit.SplitterActionsTest.testTakeMostRepeatedDeliveryWay.executor": "Run",
     "JUnit.SplitterActionsTest.testTakeQuantityOfDeliveryWays.executor": "Run",
     "JUnit.SplitterActionsTest.testTakeSetOfProductPossibleToDeliverByOneWay.executor": "Run",
+    "JUnit.basket in Piotr_Trojan_Java_Krakow.executor": "Run",
     "JUnit.org.ocado.basket in Piotr_Trojan_Java_Krakow.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -61,7 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Piotr/Desktop/json-20140107.jar",
+    "last_opened_file_path": "D:/Piotr_Trojan_Java_Krakow/pom.xml",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -70,11 +73,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Piotr_Trojan_Java_Krakow\src\main\resources" />
       <recent name="D:\Piotr_Trojan_Java_Krakow\src\main\java\org\ocado\basket\jsonFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasketSplitterTest.testSplitWithSingleProduct">
-    <configuration name="BasketSplitterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.basket in Piotr_Trojan_Java_Krakow">
+    <configuration name="TestBasketSplitter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Piotr_Trojan_Java_Krakow" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +87,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.ocado.basket" />
-      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.BasketSplitterTest" />
+      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.TestBasketSplitter" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasketSplitterTest.testSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBasketSplitter.testSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Piotr_Trojan_Java_Krakow" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.ocado.basket" />
-      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.BasketSplitterTest" />
+      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.TestBasketSplitter" />
       <option name="METHOD_NAME" value="testSplit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasketSplitterTest.testSplitWithSingleProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBasketSplitter.testSplitWithSingleProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Piotr_Trojan_Java_Krakow" />
       <extension name="coverage">
         <pattern>
@@ -114,24 +118,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.ocado.basket" />
-      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.BasketSplitterTest" />
+      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.TestBasketSplitter" />
       <option name="METHOD_NAME" value="testSplitWithSingleProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonBasketReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="basket in Piotr_Trojan_Java_Krakow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Piotr_Trojan_Java_Krakow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ocado.basket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ocado.basket" />
-      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.JsonBasketReaderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/org/ocado/basket" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BasketSplitterTest.testSplitWithSingleProduct" />
-        <item itemvalue="JUnit.BasketSplitterTest" />
-        <item itemvalue="JUnit.BasketSplitterTest.testSplit" />
+        <item itemvalue="JUnit.basket in Piotr_Trojan_Java_Krakow" />
+        <item itemvalue="JUnit.TestBasketSplitter" />
         <item itemvalue="JUnit.org.ocado.basket in Piotr_Trojan_Java_Krakow" />
-        <item itemvalue="JUnit.JsonBasketReaderTest" />
+        <item itemvalue="JUnit.TestBasketSplitter.testSplitWithSingleProduct" />
+        <item itemvalue="JUnit.TestBasketSplitter.testSplit" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +161,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
       </set>
     </attachedChunks>
   </component>
