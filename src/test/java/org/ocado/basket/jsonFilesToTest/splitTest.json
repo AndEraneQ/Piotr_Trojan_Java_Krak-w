@@ -1,0 +1,8 @@
+{
+  "Cocoa Butter": ["Courier", "Parcel locker", "Same day delivery"],
+  "English Muffin": ["Parcel locker", "Mailbox delivery"],
+  "Oatmeal Cookies": ["Courier", "Mailbox delivery"],
+  "Orange Juice": ["Courier", "Parcel locker", "Same day delivery"],
+  "Granola Bars": ["Mailbox delivery", "Same day delivery"],
+  "Chocolate Chips": ["Courier", "Parcel locker"]
+}

@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="288bba8e-0f6c-4676-bb7a-8862de1b0d34" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/BasketSplitterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/JsonBasketReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/SplitterActionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/jsonFilesToTest/readDeliveryWaysForProductsTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/jsonFilesToTest/readListOfProductTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ocado/basket/jsonFilesToTest/splitTest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ocado/basket/BasketSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ocado/basket/BasketSplitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ocado/basket/JsonBasketReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ocado/basket/JsonBasketReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ocado/basket/SplitterActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ocado/basket/SplitterActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +40,125 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Piotr/Desktop/json-20140107.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BasketSplitterTest.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplit.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitWithSingleProduct.executor": "Run",
+    "JUnit.JsonBasketReaderTest.executor": "Run",
+    "JUnit.JsonBasketReaderTest.testReadListOfProduct.executor": "Run",
+    "JUnit.SplitterActionsTest.executor": "Run",
+    "JUnit.SplitterActionsTest.testTakeMostRepeatedDeliveryWay.executor": "Run",
+    "JUnit.SplitterActionsTest.testTakeQuantityOfDeliveryWays.executor": "Run",
+    "JUnit.SplitterActionsTest.testTakeSetOfProductPossibleToDeliverByOneWay.executor": "Run",
+    "JUnit.org.ocado.basket in Piotr_Trojan_Java_Krakow.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Piotr/Desktop/json-20140107.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Piotr_Trojan_Java_Krakow\src\main\java\org\ocado\basket\jsonFiles" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BasketSplitterTest.testSplitWithSingleProduct">
+    <configuration name="BasketSplitterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Piotr_Trojan_Java_Krakow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ocado.basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ocado.basket" />
+      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.BasketSplitterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketSplitterTest.testSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Piotr_Trojan_Java_Krakow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ocado.basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ocado.basket" />
+      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.BasketSplitterTest" />
+      <option name="METHOD_NAME" value="testSplit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketSplitterTest.testSplitWithSingleProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Piotr_Trojan_Java_Krakow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ocado.basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ocado.basket" />
+      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.BasketSplitterTest" />
+      <option name="METHOD_NAME" value="testSplitWithSingleProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonBasketReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Piotr_Trojan_Java_Krakow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ocado.basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ocado.basket" />
+      <option name="MAIN_CLASS_NAME" value="org.ocado.basket.JsonBasketReaderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.ocado.basket in Piotr_Trojan_Java_Krakow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Piotr_Trojan_Java_Krakow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ocado.basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ocado.basket" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BasketSplitterTest.testSplitWithSingleProduct" />
+        <item itemvalue="JUnit.BasketSplitterTest" />
+        <item itemvalue="JUnit.BasketSplitterTest.testSplit" />
+        <item itemvalue="JUnit.org.ocado.basket in Piotr_Trojan_Java_Krakow" />
+        <item itemvalue="JUnit.JsonBasketReaderTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
